@@ -62,8 +62,9 @@ library
   -- Other library packages from which modules are imported.
   build-depends:       base >=4.8 && <5.0
                        , distributed-process          >= 0.5.4 && < 1.0
-                       , raft
                        , acid-state                   >= 0.12 && < 1.0
+                       , SafeCopy                     >= 0.8  && < 1.0
+                       , raft
 
 
   -- Directories containing source files.
